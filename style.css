@@ -18,7 +18,8 @@ main{
     background-color:#FFFFFF;
     border-radius: 5px;
     width: 870px;
-    margin: 21px;
+    margin-bottom: 21px;
+    padding: 30px;
 }
 .section-title{
     color: #562EFF;
@@ -57,9 +58,10 @@ hr{
  }
 
  /* top-blogs style */
+
  .top-blogs{
     margin-top: 19px;
-    margin-bottom: 40px;
+    margin-bottom: 7px;
  }
  .blogs{
     display: grid;
@@ -102,4 +104,33 @@ hr{
  .course-banner>img{
     width: 224px;
     height: 104px;
+ }
+ .course-rate{
+   display: flex;
+   align-items: center;
+
+ }
+ .fa-color{
+   font-size: 12px;
+   color: #FFC014;
+ }
+ #fa-c-gray{
+   color: #AEAEAE;
+ }
+ .point{
+   padding: 10px;
+   font-weight: 400;
+   font-size: 14.6913px;
+   color: #A2A2A2;
+ }
+ .hour{
+
+ }
+ .time{
+   background: #FFE4E8;
+   border-radius: 14.6913px;
+   padding-right: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
  }
